@@ -1,0 +1,38 @@
+.video-js {
+    padding-top: 56.25%
+}
+.vjs-fullscreen {
+    padding-top: 0px
+}
+.vjs-poster {
+    position: absolute;
+    top: 0px;
+}
+.ads .vjs-poster {
+    background: transparent;
+}
+.ads .vjs-play-progress {
+    background: #999 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+.ads .vjs-volume-level {
+    background: #999 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC) -50% 0 repeat;
+}
+#skipAd {
+    cursor: pointer;
+}
+.skipAdButton {
+    display: none;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+}
+.ad-label {
+    position: absolute;
+    top: 30px;
+    left: 10
+}
+.ad-element {
+    display: none;
+}
